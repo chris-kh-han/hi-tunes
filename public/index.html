@@ -24,7 +24,9 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+
+    <title>Hi Tunes</title>
+    
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -37,7 +39,15 @@
       The build step will place the bundled scripts into the <body> tag.
 
       To begin the development, run `npm start` or `yarn start`.
+
+      AIzaSyB49eigq-pKXVO4_CMEYu4uW8UKIP34zx4
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script async
+    src="https://maps.googleapis.com/maps/api/js?key=#{ENV['REACT_APP_MAP_API_KEY']}>&callback=initMap">
+</script> 
+   
+  
+    
   </body>
 </html>
